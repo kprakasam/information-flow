@@ -1,0 +1,17 @@
+"use strict";
+require("./lib/secret");
+
+var x = secret('x');
+var y = secret('');
+var z = false;
+
+y = x;
+z = 1;
+//z = x;
+if (true) {
+    if (x) {
+        z = true;        
+    }
+}
+
+console.log(z);

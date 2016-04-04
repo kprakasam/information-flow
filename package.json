@@ -1,0 +1,14 @@
+{
+  "name": "information-flow-analysis",
+  "version": "0.0.1",
+  "description": "Information Flow analyis library",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "pkannan",
+  "license": "ISC",
+  "dependencies": {
+    "harmony-reflect": "^1.4.2"
+  }
+}
